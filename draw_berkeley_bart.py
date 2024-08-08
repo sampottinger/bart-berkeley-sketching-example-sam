@@ -25,7 +25,6 @@ LINE_MIN_LEN = 70
 LINE_MAX_LEN = 210
 
 
-
 class Station:
     """Data record describing a single station."""
 
@@ -224,7 +223,7 @@ class StationVizPresenter:
         self._sketch.pop_transform()
 
     def _get_line_length(self, max_value, count):
-        return LINE_MIN_LEN
+        return (LINE_MAX_LEN - LINE_MIN_LEN) / max_value * count + LINE_MIN_LEN
 
 
 def main():
