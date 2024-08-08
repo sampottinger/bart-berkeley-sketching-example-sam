@@ -33,7 +33,7 @@ To get this repository ready, let's execute a few tools that can help us check o
 
  - **pyflakes**: This is a check for clear issues like undefined variables. Execute with `pyflakes *.py`.
  - **nose2**: This is a unit test runner. Go ahead and give this a shot with `nose2` and notice that it looks like the test for the line length is failing. See if you can fix it!
- - **pycodestyle**: Execute checks for code style issues with `pycodestyle *.py`. Can you fix any of the ifnal issues?
+ - **pycodestyle**: Execute checks for code style issues with `pycodestyle *.py`. Can you fix any of the final issues? This is controlled by `setup.cfg`.
 
 We will next execute these from within CI. Note that we just did a little [test driven development](https://www.youtube.com/watch?v=B1j6k2j2eJg) where the test is written before the code.
 
