@@ -245,15 +245,16 @@ def main():
     data_facade = DataFacade(sketch)
     presenter = StationVizPresenter(sketch)
 
-    # Get the data and draw
+    # Get the data
     data = data_facade.get_stations(data_loc)
-    sketch.on_step(lambda x: presenter.draw(data))
 
     # If running interactive, show the visualization. Otherwise write to disk
     # at location specified.
     if interactive:
+        sketch.on_step(lambda x: presenter.draw(data))
         sketch.show()
     else:
+        presenter.draw(data)
         sketch.save_image(output_loc)
 
 
