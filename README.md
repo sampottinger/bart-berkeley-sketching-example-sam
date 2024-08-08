@@ -136,8 +136,9 @@ Go ahead and push. If you are on a different branch, merge back to `main` after 
 ## Open source
 We use the following community resources:
 
- - [Sketchingpy](https://www.sketchingpy.org) under the [BSD 3-Clause License](https://codeberg.org/sketchingpy/Sketchingpy/src/branch/main/LICENSE.md).
  - [BART Ridership Data](https://www.bart.gov/about/reports/ridership) under the [CC-BY License](http://opendefinition.org/licenses/cc-by/).
+ - [Public Sans](https://public-sans.digital.gov/) under the [SIL Open Font License](https://github.com/uswds/public-sans/blob/develop/LICENSE.md).
+ - [Sketchingpy](https://www.sketchingpy.org) under the [BSD 3-Clause License](https://codeberg.org/sketchingpy/Sketchingpy/src/branch/main/LICENSE.md).
 
 Thank you to our dependencies.
 
