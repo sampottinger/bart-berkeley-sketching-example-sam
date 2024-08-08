@@ -75,8 +75,6 @@ Notice that we left `steps:` at the end of that last snippet. Each job is a seri
         run: pyflakes *.py
       - name: Check style
         run: pycodestyle *.py
-      - name: Check types
-        run: mypy *.py
       - name: Run unit tests
         run: nose2
 ```
