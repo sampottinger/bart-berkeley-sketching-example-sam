@@ -242,10 +242,10 @@ def main():
 
     # Create a sketch and initalize the data facade (model) and presenter.
     if interactive:
-        sketch = sketchingpy.Sketch2D(WIDTH, HEIGHT)
+        sketch = sketchingpy.Sketch2DApp(WIDTH, HEIGHT)
     else:
         sketch = sketchingpy.Sketch2DStatic(WIDTH, HEIGHT)
-    
+
     data_facade = DataFacade(sketch)
     presenter = StationVizPresenter(sketch)
 
