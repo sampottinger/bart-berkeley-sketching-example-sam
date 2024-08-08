@@ -62,7 +62,7 @@ Notice that we left `steps:` at the end of that last snippet. Each job is a seri
 
 ```
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -103,7 +103,7 @@ Note that this only runs on `main` (`refs/heads/main`) and will skip in pull req
 
 ```
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -123,7 +123,7 @@ Finally, we can upload this build artifact to GitHub and it will be asssociated 
 
 ```
       - name: Upload result
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: berkeley_trips
           path: berkeley_trips.png
